@@ -38,7 +38,7 @@ body {
 }
 
 header {
-  background-color: lightblue;
+  background-color: #265EE9;
 }
 
 /* # Navbar */
@@ -70,8 +70,11 @@ header {
 
 .jumbotron {
   padding: 50px;
-  height: 500px;
-  background-color: darkblue;
+  height: 660px;
+  /*background-color: darkblue;*/
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+
 
   display: flex;
   justify-content: center;
