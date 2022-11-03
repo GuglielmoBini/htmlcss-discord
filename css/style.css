@@ -69,7 +69,6 @@ a i {
 .navbar > * {
   padding: 10px;
   flex-basis: 20%;
-  /*background-color: goldenrod;*/
   font-size: 1.1rem;
 }
 
@@ -100,7 +99,6 @@ a i {
 .jumbotron {
   padding: 50px;
   height: 660px;
-  /*background-color: darkblue;*/
   background-image: url(../img/jumbo.png);
   background-size: cover;
 
@@ -111,9 +109,6 @@ a i {
 
 .jumbotron .content {
   width: 50%;
-  /* height: 100%; */
-  /* margin: 0 auto; */
-  /*background-color: violet;*/
 }
 .content {
   text-align: center;
@@ -162,17 +157,14 @@ section > .container {
 
 .flex > .small-col {
   flex-basis: 35%;
-  /*background-color: pink;*/
 }
 
 .flex > .large-col {
   flex-basis: 65%;
-  /*background-color: dodgerblue;*/
 }
 
 .flex > .full-col {
   flex-basis: 100%;
-  /*background-color: darkgreen;*/
 }
 
 .small-col h2 {
@@ -224,38 +216,70 @@ section > .container {
 /* # Footer */
 
 footer {
-  padding: 50px;
+  padding: 80px;
   background-color: #23272a;
-  /* color: white; */
+  color: white;
 }
 
 .footer-top {
-  height: 600px;
-  padding-bottom: 30px;
+  height: 350px;
   margin-bottom: 30px;
   border-bottom: 1px solid #3F4967;
-
   display: flex;
 }
 
 .footer-top .footer-left {
   flex-basis: 30%;
-  background-color: pink;
 }
 
 .footer-top .footer-right {
   flex-basis: 70%;
-  background-color: #20b2aa;
+  padding-top: 10px;
 }
 
+
+.footer-left h3 {
+  font-size: 2rem;
+  color: #8EA1E1;
+}
+
+.footer-left > img {
+  height: 17.6px;
+  vertical-align: middle;
+  margin: 20px 0;
+}
+
+.language {
+  font-size: 0.9rem;
+}
+
+.socials i {
+  padding: 10px 15px 0 0;
+  font-size: 1.3rem;
+}
 .footer-nav {
   height: 100%;
   display: flex;
-  /* background-color: #fff; */
+}
+
+.nav-col{
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .footer-nav > div {
   flex-basis: 25%;
+}
+
+.footer-nav h4 {
+  color: #8EA1E1;
+}
+
+.footer-nav a {
+  display: block;
+  line-height: 200%;
+  color: white;
+  text-decoration: none;
 }
 
 .footer-bottom {
@@ -263,12 +287,10 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  /*background-color: aquamarine;*/
 }
 
 .footer-bottom > * {
   padding: 5px 10px;
-  /*background-color: yellow;*/
 }
 
 .footer-bottom > button {
