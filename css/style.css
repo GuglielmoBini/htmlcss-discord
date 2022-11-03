@@ -54,7 +54,8 @@ header {
 .navbar > * {
   padding: 10px;
   flex-basis: 20%;
-  background-color: goldenrod;
+  /*background-color: goldenrod;*/
+  font-size: 1.1rem;
 }
 
 .navbar-menu {
@@ -62,8 +63,21 @@ header {
   text-align: center;
 }
 
+.navbar-menu > a {
+  color: white;
+  text-decoration: none;
+  padding: 0 20px;
+}
+
 .navbar-actions {
   text-align: right;
+}
+
+.navbar-actions > button {
+  padding: 10px 15px;
+  border-radius: 30px;
+  border: white solid 1px;
+  font-weight: 700;
 }
 
 /* # Jumbotron */
@@ -84,7 +98,49 @@ header {
   width: 50%;
   /* height: 100%; */
   /* margin: 0 auto; */
-  background-color: violet;
+  /*background-color: violet;*/
+}
+.content {
+  text-align: center;
+  color: white;
+}
+
+.content > h1 {
+  font-size: 3.5rem;
+  margin: 100px 0 50px 0;
+}
+
+.content > p {
+  font-size: 1.3rem;
+  margin-bottom: 70px;
+  line-height: 150%;
+}
+
+.content a {
+  margin: 0 40px;
+  padding: 15px 40px;
+  text-decoration: none;
+  border-radius: 55px;
+  font-size: 1.3rem;
+}
+
+.download {
+  color: black;
+  background-color: white;
+  border: white solid 1px;
+}
+
+.open-browser {
+  color: white;
+  background-color: #23272A;
+  border: #23272A solid 1px;
+}
+
+
+
+.content i {
+  margin-right: 10px;
+  font-size: 1rem;
 }
 
 /* # Main & sections */
