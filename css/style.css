@@ -25,6 +25,11 @@ body {
   flex-direction: row-reverse;
 }
 
+.flex.column {
+  flex-direction: column;
+  align-items: center;
+}
+
 .debug .border {
   border: 2px dashed black;
 }
@@ -184,9 +189,20 @@ section > .container {
   margin: 30px 0 20px 0;
 }
 
-.full-col h3 {
-  font-size: 1.5rem;
+.full-col > div {
+  width: 450px;
+  height: 60px;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url(../img/stars.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
   margin-bottom: 50px;
+}
+
+.full-col h3 {
+  align-items: flex-end;
+  font-size: 1.5rem;
 }
 
 .full-col > img {
