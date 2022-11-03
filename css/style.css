@@ -233,7 +233,7 @@ footer {
   height: 600px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  border-bottom: 1px solid purple;
+  border-bottom: 1px solid #3F4967;
 
   display: flex;
 }
@@ -263,10 +263,19 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-color: aquamarine;
+  /*background-color: aquamarine;*/
 }
 
 .footer-bottom > * {
   padding: 5px 10px;
-  background-color: yellow;
+  /*background-color: yellow;*/
+}
+
+.footer-bottom > button {
+  padding: 10px 15px;
+  border-radius: 30px;
+  font-weight: 700;
+  color: white;
+  background-color: #8EA1E1;
+  border: #8EA1E1;
 }
