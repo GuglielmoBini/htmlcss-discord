@@ -167,18 +167,13 @@ section > .container {
   flex-basis: 100%;
 }
 
-.small-col h2 {
+.col-title {
   font-size: 3rem;
   margin: 30px 0 20px 0;
 }
 
 .full-col {
   text-align: center;
-}
-
-.full-col h2{
-  font-size: 3rem;
-  margin: 30px 0 20px 0;
 }
 
 .full-col > div {
@@ -276,7 +271,6 @@ footer {
 }
 
 .footer-nav a {
-  display: block;
   line-height: 200%;
   color: white;
   text-decoration: none;
